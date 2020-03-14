@@ -21,26 +21,30 @@ body {
   margin: 0;
 }
 
-.h-watermelon {
-  font-family: "Rammetto One", sans-serif;
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
-.h-starfruit {
+article:first-child h2 {
+  font-family: "Rammetto One", cursive;
+}
+
+article:nth-child(2) h2 {
   font-family: "Gravitas One", cursive;
 }
 
-.h-persimmon {
-  font-family: Comfortaa, sans-serif;
+article:nth-child(3) h2 {
+  font-family: Comfortaa, cursive;
 }
 
-.watermelon {
+article:first-child {
   background-color: #e97065;
 }
 
-.starfruit {
+article:nth-child(2) {
   background-color: #fbd25e;
 }
 
-.persimmon {
+article:nth-child(3) {
   background-color: #e86033;
 }
